@@ -1,0 +1,5 @@
+inherit kde4
+
+
+# libfacile: optional OCaml dependency; build needs to use flexlink
+CYGCMAKE_ARGS="-DLIBFACILE_LIBRARIES=LIBFACILE_LIBRARIES-NOTFOUND"
