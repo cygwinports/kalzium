@@ -1,4 +1,4 @@
 category: KDE Science
-requires: libavogadro1 libgcc1 libkdecore5 libopenbabel3 libQtCore4 libQtGui4 libQtOpenGL4 libQtSvg4 libQtXml4 libstdc++6
+requires: libavogadro1 libgcc1 libkdecore5 libopenbabel4 libQtCore4 libQtGui4 libQtOpenGL4 libQtSvg4 libQtXml4 libstdc++6
 sdesc: "KDE periodic table"
 ldesc: "KDE education suite"
