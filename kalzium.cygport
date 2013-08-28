@@ -1,5 +1,11 @@
 inherit kde4
 
+NAME="kalzium"
+VERSION=4.10.5
+RELEASE=1
+CATEGORY="Science"
+SUMMARY="KDE periodic table"
+DESCRIPTION="Part of the KDE education suite"
 
 # libfacile: optional OCaml dependency; build needs to use flexlink
 CYGCMAKE_ARGS="-DLIBFACILE_LIBRARIES=LIBFACILE_LIBRARIES-NOTFOUND"
