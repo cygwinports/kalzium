@@ -2,11 +2,10 @@ inherit kde4
 
 NAME="kalzium"
 VERSION=4.10.5
-RELEASE=1
+RELEASE=2
 CATEGORY="Science"
 SUMMARY="KDE periodic table"
 DESCRIPTION="Part of the KDE education suite"
 REQUIRES="chemical-mime-data"
 
-# libfacile: optional OCaml dependency; build needs to use flexlink
-CYGCMAKE_ARGS="-DLIBFACILE_LIBRARIES=LIBFACILE_LIBRARIES-NOTFOUND"
+PATCH_URI="4.10.5-ocaml-asmrun.patch"
