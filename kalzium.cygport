@@ -1,8 +1,8 @@
 inherit kde4
 
 NAME="kalzium"
-VERSION=4.10.5
-RELEASE=2
+VERSION=4.11.5
+RELEASE=1
 CATEGORY="Science"
 SUMMARY="KDE periodic table"
 DESCRIPTION="Part of the KDE education suite"
