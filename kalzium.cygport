@@ -6,6 +6,6 @@ RELEASE=1
 CATEGORY="Science"
 SUMMARY="KDE periodic table"
 DESCRIPTION="Part of the KDE education suite"
-REQUIRES="chemical-mime-data"
+REQUIRES="chemical-mime-data kde-runtime"
 
 PATCH_URI="4.10.5-ocaml-asmrun.patch"
