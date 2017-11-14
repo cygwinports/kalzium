@@ -1,7 +1,7 @@
 inherit kf5
 
 NAME="kalzium"
-VERSION=17.04.3
+VERSION=17.08.3
 RELEASE=1
 CATEGORY="Science"
 SUMMARY="KDE periodic table"
@@ -9,6 +9,5 @@ DESCRIPTION="Part of the KDE education suite"
 REQUIRES="chemical-mime-data"
 
 PATCH_URI="
-	http://pkgs.fedoraproject.org/cgit/rpms/kalzium.git/plain/kalzium-ocaml.patch
 	4.10.5-ocaml-asmrun.patch
 "
